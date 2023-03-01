@@ -1,0 +1,38 @@
+.header-top {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.search img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.register img {
+    width: 30px;
+    height: 30px;
+ 
+}
+
+.dang-ky-tuoi-tre {
+    display: inline-block;
+    margin: 5px;
+    background-color: #5580df;
+    padding: 4px 16px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.dang-ky-tuoi-tre a {
+    color: white
+}
+
