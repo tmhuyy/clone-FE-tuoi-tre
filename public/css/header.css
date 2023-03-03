@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-right: 10px;
 }
 
@@ -51,10 +51,18 @@
 .header-nav {
   display: flex;
   justify-content: center;
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .menu-nav {
   display: flex;
+
   /* align-items: center; */
 }
 
@@ -69,4 +77,5 @@
   display: flex;
   align-items: center;
   margin-right: 20.4px;
+  padding-top: 10px;
 }
