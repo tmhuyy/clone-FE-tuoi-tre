@@ -1,0 +1,21 @@
+.detail {
+    display: flex;
+}
+
+.side-bar-action {
+    position: sticky;
+    top: 50px;
+    width: 32px;
+    margin-bottom: 20px; 
+}
+
+.btn-font {
+    padding: 4px 0;
+    background: #fff;
+    border: 1px solid #dfe0e3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px; 
+}

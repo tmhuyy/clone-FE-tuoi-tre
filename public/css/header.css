@@ -1,38 +1,72 @@
 .header-top {
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(224, 16, 16);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-top-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  color: white;
 }
 
-.search img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+.header-top-right div {
+  margin-left: 10px;
+  padding-right: 10px;
 }
 
-.register img {
-    width: 30px;
-    height: 30px;
- 
+.need-border {
+  border-right: 1px solid #e29d9f;
+}
+
+.need-border a {
+  font-size: 500;
+  color: white;
+  display: flex;
+  padding: 0 12px;
+}
+
+.search {
+  cursor: pointer;
 }
 
 .dang-ky-tuoi-tre {
-    display: inline-block;
-    margin: 5px;
-    background-color: #5580df;
-    padding: 4px 16px;
-    font-size: 13px;
-    border-radius: 4px;
+  display: inline-block;
+  margin: 5px;
+  background-color: #5580df;
+  padding: 4px 16px;
+  font-size: 13px;
+  border-radius: 4px;
 }
 
 .dang-ky-tuoi-tre a {
-    color: white
+  color: white;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-nav {
+  display: flex;
+  /* align-items: center; */
+}
+
+.nav-link {
+  white-space: nowrap;
+  padding: 4px 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222;
+  display: flex;
+  align-items: center;
+  margin-right: 20.4px;
+}
