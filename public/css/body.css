@@ -1,6 +1,6 @@
 .detail {
     display: flex;
-    padding-left: 20px;
+    padding-left: 60px;
     padding-top: 20px;
     margin-top: 10px;
 }
@@ -25,7 +25,7 @@
 
 .main-content {
     margin-left: 100px;
-    margin-right: 200px
+    margin-right: 400px
 }
 
 .sub-title {
@@ -83,4 +83,42 @@
 .author-info a{
     color: black;
     font-size: 15px
+}
+
+.news-chatbot {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 8px 0 0;
+    width: 100%;
+}
+
+
+.title-box {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    position: relative
+}
+
+.detail__cmain .detail-comment {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#tto_chude_web .rowtopic {
+    display: flex;
+}
+
+.box-title-text a {
+    color: black
+}
+
+.box-title-text a:hover {
+    color: red
 }
